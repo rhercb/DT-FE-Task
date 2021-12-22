@@ -6,7 +6,7 @@
 1. git clone
 2. npm install
 3. npm run start
-4. http://localhost:5555/contacts
+4. http://localhost:5555/characters
 ```
 
 ### Pieejamās komandas datiem
@@ -16,22 +16,22 @@ ___
 #### GET
 
 ```
-/contacts - Iegūs pilno sarakstu ar datiem
-/contacts/1 - Iegūs no saraksta ierakstu ar ID: 1
+/characters - Iegūs pilno sarakstu ar datiem
+/characters/1 - Iegūs no saraksta ierakstu ar ID: 1
 ```
 
 #### Paginate
 
 ```
-/contacts?_page=7 - Iegūs ierakstus no 7. lapas (Default ierakstu skaits - 10)
-/contacts?_page=7&_limit=20 - Iegūs 20 ierakstus no 7. lapas
+/characters?_page=7 - Iegūs ierakstus no 7. lapas (Default ierakstu skaits - 10)
+/characters?_page=7&_limit=20 - Iegūs 20 ierakstus no 7. lapas
 ```
 
 #### Filter/Search
 
 ```
-/contacts?q=homer - Iegūs visus ierakstus kur name vai url saturēs vārdu 'homer'
-/contacts?name_like=homer - Iegūs visus ierakstus kur name satur vārdu 'homer'
+/characters?q=homer - Iegūs visus ierakstus kur name vai url saturēs vārdu 'homer'
+/characters?name_like=homer - Iegūs visus ierakstus kur name satur vārdu 'homer'
 ```
 
 #### Citas komandas pieejamas [šeit](https://github.com/typicode/json-server)
