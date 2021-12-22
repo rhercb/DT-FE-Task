@@ -3,7 +3,7 @@
 ### Kā uzinstalēt
 
 ```
-1. git clone name
+1. git clone
 2. npm install
 3. npm run start
 4. http://localhost:3000/contacts

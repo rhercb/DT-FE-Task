@@ -1,10 +1,10 @@
-interface ContactDetails {
+interface Characters {
     id: number;
     name: string;
     url: string | undefined;
 }
 
-const contacts: ContactDetails[] = [
+const characters: Characters[] = [
     {
         id: 1,
         name: "Homer Simpson",
@@ -4092,4 +4092,4 @@ const contacts: ContactDetails[] = [
     },
 ];
 
-export default contacts;
+export default characters;

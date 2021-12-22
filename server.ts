@@ -1,12 +1,12 @@
 import jsonServer from "json-server";
-import contacts from "./db";
+import characters from "./db";
 
 const server = jsonServer.create();
-const router = jsonServer.router({ contacts });
+const router = jsonServer.router({ characters });
 const middleware = jsonServer.defaults();
 
 server.use(middleware);
 server.use(router);
-server.listen(3000, () => {
-  console.log("JSOn Server is running");
+server.listen(5555, () => {
+  console.log("Server running at: http://localhost:5555/characters");
 });
